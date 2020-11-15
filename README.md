@@ -1,6 +1,6 @@
-# juejin 默认主题
+# 掘金凝夜紫主题
 
-https://github.com/xitu/juejin-markdown-themes
+适配微信以及Safari的深色模式。“凝夜紫”，寓意在深色模式中也可以发光。
 
 ## License
 
