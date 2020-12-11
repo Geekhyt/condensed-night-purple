@@ -10,7 +10,7 @@ $a-color: #916dd5;
 $a-hover-active-color: #773098;
 
 .markdown-body {
-  line-height: 1.25;
+  line-height: 1.75;
   font-family: $monospace-font;
   letter-spacing: 2px;
   background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%);
@@ -77,7 +77,7 @@ $a-hover-active-color: #773098;
   }
 
   code {
-    padding: 0.065em 0.4em;
+    padding: 0.2em 0.5em;
     font-weight: bold;
     font-family: $monospace-font;
     font-size: 1em;
@@ -93,12 +93,12 @@ $a-hover-active-color: #773098;
     overflow: auto;
     position: relative;
     line-height: 1.75;
-
+    
     >code {
       display: block;
+      font-size: 12px;
       padding: 16px 12px;
       margin: 0;
-      font-size: 12px;
       color: #333;
       word-break: normal;
       overflow-x: auto;
@@ -123,15 +123,15 @@ $a-hover-active-color: #773098;
     width: auto;
     max-width: 100%;
     overflow: auto;
-    border: solid 1px #f6f6f6;
+    border: solid 1px $a-color;
   }
   thead {
-    background: #f6f6f6;
-    color: #000;
+    background-color: $a-color;
+    color: #fff;
     text-align: left;
   }
   tr:nth-child(2n) {
-    background-color: #fcfcfc;
+    background-color: $h3-color;
   }
   th,
   td {
